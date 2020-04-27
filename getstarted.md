@@ -2,6 +2,7 @@
 layout: page
 title: Getting started
 subtitle: How to use Beautiful Jekyll
+share-img: "https://beautifuljekyll.com/assets/img/screenshot.png"
 bigimg: /assets/img/start.jpg
 css: /assets/css/demo.css
 ---
