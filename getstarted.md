@@ -76,6 +76,8 @@ There are three other ways of using beautiful-jekyll. These are advanced uses an
     - Add `theme: beautiful-jekyll-theme` to your `_config.yml`
     - Run `bundle`
 
+It might be helpful to see [an example](https://github.com/daattali/beautiful-jekyll-demo) of a website that was built with `remote_theme` on GitHub.
+
 If you're developing using a local ruby gem (as opposed to on GitHub), you can preview your site by running `bundle exec jekyll serve` (optionally with `-H 0.0.0.0` if needed).
 
 When you use beautiful-jekyll with the "easy way", you'll have direct access to all the theme's files because you'll be literally copying the project. But if you use one of these three "hard" methods, many of the theme's files and folders will be hidden from you, so you'll need to:
