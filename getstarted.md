@@ -43,9 +43,7 @@ See how easy that is? I wasn't lying - it really can be done in two minutes.
 
 <br/><br/>
 
-<div id="install-steps-hard"></div>
-
-## Installation steps (as a ruby gem - the hard way)
+## Installation steps (as a ruby gem - the hard way) {#install-steps-hard}
 
 **For most people (including myself!), I suggest using the easy way and ignoring this section**. If you're an advanced user and want to use beautiful-jekyll as a ruby gem, then follow these steps.
 
