@@ -7,6 +7,13 @@
   margin-top: 10px;
 }
 
+#created-by {
+  text-align: right;
+  margin-top: 30px;
+  color: #777;
+  font-size: 0.9em 
+}
+
 /* fix in-page anchors to not be behind fixed header */
 :target:before {
     content: "";
