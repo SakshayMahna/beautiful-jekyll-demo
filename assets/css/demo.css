@@ -14,14 +14,6 @@
   font-size: 0.9em 
 }
 
-/* fix in-page anchors to not be behind fixed header */
-:target:before {
-    content: "";
-    display: block;
-    height: 50px; /* navbar height */
-    margin: -50px 0 0;
-}
-
 /* Carbon ads */
 #carbonads {
   display: block;
