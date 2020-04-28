@@ -51,28 +51,30 @@ Beautiful-Jekyll was initially developed as a GitHub Pages theme that was meant 
 
 There are three other ways of using beautiful-jekyll. These are advanced uses and you should only use one of these methods if you know how to write jekyll sites from scratch. You should look up the official documentation for whichever method you want to use, but here are the basics:
 
-- Method 1: Using `remote_theme` with a GitHub repository
+- Method 1: Using `remote_theme` with a GitHub repository <button data-target="#method_remote_theme_github" class="btn btn-default" data-toggle="collapse">Show Steps</button>
 
     - Create a new GitHub repository or go to an existing repository
     - Add `remote_theme: daattali/beautiful-jekyll@2.2.0` to your `_config.yml` file (make sure to remove any previous `theme` or `remote_theme` parameters that may have been there before)
     - Go to _Settings_, scroll down to the _GitHub Pages_ section, and choose "master branch" as the source
     - Your website will be at `https://<yourusername>.github.io\<projectname>`
+    {: #method_remote_theme_github .collapse}
 
-- Method 2: Using `remote_theme` with a Ruby Jekyll site
+- Method 2: Using `remote_theme` with a Ruby Jekyll site <button data-target="#method_remote_theme_jekyll" class="btn btn-default" data-toggle="collapse">Show Steps</button>
 
     - Install Ruby and Jekyll (`sudo apt-get install ruby ruby-dev make gcc` and `sudo gem install jekyll bundler`)
     - Create a new jekyll site (e.g. `jekyll new mysite`)
     - Add `gem "jekyll-remote-theme"` to your Gemfile and then run `bundle install` to install the plugin
     - Add `remote_theme: daattali/beautiful-jekyll@2.2.0` to your `_config.yml` file (make sure to remove any previous `theme` or `remote_theme` parameters that may have been there before)
     - Add `- jekyll-remote-theme` to the plugins section of your `_config.yml` file to activate the plugin
+    {: #method_remote_theme_jekyll .collapse}
 
-- Method 3: Using the Beautiful-Jekyll theme gem
+- Method 3: Using the Beautiful-Jekyll theme gem <button data-target="#method_gem" class="btn btn-default" data-toggle="collapse">Show Steps</button>
 
     - Install Ruby and Jekyll (`sudo apt-get install ruby ruby-dev make gcc` and `sudo gem install jekyll bundler`)
     - Create a new jekyll site (e.g. `jekyll new mysite`)
     - Add `gem "beautiful-jekyll-theme", "2.2.0"` to your Gemfile
     - Add `theme: beautiful-jekyll-theme` to your `_config.yml`
-    - Run `bundle`
+    {: #method_gem .collapse}
 
 This website (https://beautifuljekyll.com/) was built using the `remote_theme` method, it might be helpful to see [the code for this website](https://github.com/daattali/beautiful-jekyll-demo) as an example.
 
