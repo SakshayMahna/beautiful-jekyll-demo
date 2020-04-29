@@ -54,7 +54,7 @@ There are three other ways of using beautiful-jekyll. These are advanced uses an
 - Method 1: Using `remote_theme` with a GitHub repository <button data-target="#method_remote_theme_github" class="btn btn-default" data-toggle="collapse">Show Steps</button>
 
     - Create a new GitHub repository or go to an existing repository
-    - Add `remote_theme: daattali/beautiful-jekyll@2.2.0` to your `_config.yml` file (make sure to remove any previous `theme` or `remote_theme` parameters that may have been there before)
+    - Add `remote_theme: daattali/beautiful-jekyll@2.3.0` to your `_config.yml` file (make sure to remove any previous `theme` or `remote_theme` parameters that may have been there before)
     - Go to _Settings_, scroll down to the _GitHub Pages_ section, and choose "master branch" as the source
     - Your website will be at `https://<yourusername>.github.io\<projectname>`
     {: #method_remote_theme_github .collapse}
@@ -64,7 +64,7 @@ There are three other ways of using beautiful-jekyll. These are advanced uses an
     - Install Ruby and Jekyll (`sudo apt-get install ruby ruby-dev make gcc` and `sudo gem install jekyll bundler`)
     - Create a new jekyll site (e.g. `jekyll new mysite`)
     - Add `gem "jekyll-remote-theme"` to your Gemfile and then run `bundle install` to install the plugin
-    - Add `remote_theme: daattali/beautiful-jekyll@2.2.0` to your `_config.yml` file (make sure to remove any previous `theme` or `remote_theme` parameters that may have been there before)
+    - Add `remote_theme: daattali/beautiful-jekyll@2.3.0` to your `_config.yml` file (make sure to remove any previous `theme` or `remote_theme` parameters that may have been there before)
     - Add `- jekyll-remote-theme` to the plugins section of your `_config.yml` file to activate the plugin
     {: #method_remote_theme_jekyll .collapse}
 
@@ -72,7 +72,7 @@ There are three other ways of using beautiful-jekyll. These are advanced uses an
 
     - Install Ruby and Jekyll (`sudo apt-get install ruby ruby-dev make gcc` and `sudo gem install jekyll bundler`)
     - Create a new jekyll site (e.g. `jekyll new mysite`)
-    - Add `gem "beautiful-jekyll-theme", "2.2.0"` to your Gemfile
+    - Add `gem "beautiful-jekyll-theme", "2.3.0"` to your Gemfile
     - Add `theme: beautiful-jekyll-theme` to your `_config.yml`
     {: #method_gem .collapse}
 
