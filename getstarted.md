@@ -76,7 +76,7 @@ There are three other ways of using beautiful-jekyll. These are advanced uses an
     - Add `theme: beautiful-jekyll-theme` to your `_config.yml`
     {: #method_gem .collapse}
 
-This website ([beautifuljekyll.com](https://beautifuljekyll.com/)) was built using the `remote_theme` method, it might be helpful to see [the code for this website](https://github.com/daattali/beautiful-jekyll-demo) as an example.
+**This website ([beautifuljekyll.com](https://beautifuljekyll.com/)) was built using the `remote_theme` + GitHub method. You can look at the [code for this website](https://github.com/daattali/beautiful-jekyll-demo) as an example of how to implement these methods.**
 
 If you're developing using a local ruby gem (as opposed to on GitHub), you can preview your site by running `bundle exec jekyll serve` (optionally with `-H 0.0.0.0` if needed).
 
