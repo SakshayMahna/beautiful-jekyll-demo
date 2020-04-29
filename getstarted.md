@@ -7,7 +7,7 @@ bigimg: /assets/img/start.jpg
 css: /assets/css/demo.css
 ---
 
-**Beautiful Jekyll** is a ready-to-use template to make help you create an awesome Jekyll or GitHub Pages website quickly. 
+**Beautiful Jekyll** is a ready-to-use template to help you create a beautiful website quickly. Perfect for personal sites, blogs, or simple project websites.
 
 To learn how you can use **Beautiful Jekyll** to create your website in minutes, go to the [Beautiful Jekyll project page](https://github.com/daattali/beautiful-jekyll#readme).
 
