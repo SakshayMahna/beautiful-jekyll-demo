@@ -3,7 +3,7 @@ layout: page
 title: Getting started
 subtitle: How to use Beautiful Jekyll
 share-img: "https://beautifuljekyll.com/assets/img/screenshot.png"
-bigimg: /assets/img/start.jpg
+cover-img: /assets/img/start.jpg
 css: /assets/css/demo.css
 ---
 
@@ -51,7 +51,7 @@ Beautiful-Jekyll was initially developed as a GitHub Pages theme that was meant 
 
 There are three other ways of using beautiful-jekyll. These are advanced uses and you should only use one of these methods if you know how to write jekyll sites from scratch. You should look up the official documentation for whichever method you want to use, but here are the basics:
 
-- Method 1: Using `remote_theme` with a GitHub repository <button data-target="#method_remote_theme_github" class="btn btn-default" data-toggle="collapse">Show Steps</button>
+- Method 1: Using `remote_theme` with a GitHub repository <button data-target="#method_remote_theme_github" class="btn btn-sm btn-outline-dark" data-toggle="collapse">Show Steps</button>
 
     - Create a new GitHub repository or go to an existing repository
     - Add `remote_theme: daattali/beautiful-jekyll@2.3.0` to your `_config.yml` file (make sure to remove any previous `theme` or `remote_theme` parameters that may have been there before)
@@ -59,7 +59,7 @@ There are three other ways of using beautiful-jekyll. These are advanced uses an
     - Your website will be at `https://<yourusername>.github.io\<projectname>`
     {: #method_remote_theme_github .collapse}
 
-- Method 2: Using `remote_theme` with a Ruby Jekyll site <button data-target="#method_remote_theme_jekyll" class="btn btn-default" data-toggle="collapse">Show Steps</button>
+- Method 2: Using `remote_theme` with a Ruby Jekyll site <button data-target="#method_remote_theme_jekyll" class="btn btn-sm btn-outline-dark" data-toggle="collapse">Show Steps</button>
 
     - Install Ruby and Jekyll (`sudo apt-get install ruby ruby-dev make gcc` and `sudo gem install jekyll bundler`)
     - Create a new jekyll site (e.g. `jekyll new mysite`)
@@ -68,7 +68,7 @@ There are three other ways of using beautiful-jekyll. These are advanced uses an
     - Add `- jekyll-remote-theme` to the plugins section of your `_config.yml` file to activate the plugin
     {: #method_remote_theme_jekyll .collapse}
 
-- Method 3: Using the Beautiful-Jekyll theme gem <button data-target="#method_gem" class="btn btn-default" data-toggle="collapse">Show Steps</button>
+- Method 3: Using the Beautiful-Jekyll theme gem <button data-target="#method_gem" class="btn btn-sm btn-outline-dark" data-toggle="collapse">Show Steps</button>
 
     - Install Ruby and Jekyll (`sudo apt-get install ruby ruby-dev make gcc` and `sudo gem install jekyll bundler`)
     - Create a new jekyll site (e.g. `jekyll new mysite`)
